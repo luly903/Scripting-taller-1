@@ -1,7 +1,7 @@
 # Scripting-taller-1
 miembros del equipo: 
-- La veterana
-- La veterana viajera
+- Juliana Monroy Andrade
+- Paulina Serna Alzate
 - Manuela Barrera Neira
 
 # Firmas:
