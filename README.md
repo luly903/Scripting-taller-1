@@ -83,7 +83,101 @@ Console.Write(array[i]+" | ");
 ```
 Ejercicio #18:
 ```
+using System;
+class Program
+{
+    static void Main()
+    {
+        string num;
 
+        Console.WriteLine("ingrese un numero de 1 a 8 digitos");
+        num = Console.ReadLine();
+
+        if(num.Length <= 0 || num.Length > 8)
+        {
+            Console.WriteLine("numero invalido, escriba un numero de 1 a 8 digitos");
+            num = Console.ReadLine();
+
+        }
+
+        int resultado = Suma(num);
+        Console.WriteLine("el resultado de la suma de los digitos es: "+resultado);   
+ 
+
+    }
+
+    public static int Suma(string num)
+    {
+  
+        int sumaTotal = 0;
+        int numero = int.Parse(num);    
+      
+            while (numero >= 10)
+            {
+                int suma = 0;
+                while (numero > 0)
+                {
+                    suma += numero % 10;  // el simbolo % Extrae el último dígito y lo suma
+                    numero /= 10;        
+                }
+                numero = suma; 
+            }
+
+        
+
+        return numero;
+    }
 ```
+Ejercicio #26:
+```
+using System;
+using System.Transactions;
+class Program
+{
+    static void Main()
+    {
+        int cont = 0;
+        float num = 0;
+        string rpta = "";
+        double acum = 0;
+        double prom =0;
 
+        Console.WriteLine("ingrese un numero flotante, cuando desee saber el promedio de los numeros ingresados, digite ´x´");
+
+        while (rpta != "x")
+        {
+            Console.WriteLine("ingrese un numero o ´x´");
+            rpta = Console.ReadLine();
+
+            if (rpta != "x")
+            {
+                cont++;
+
+                try
+                {
+                    num = float.Parse(rpta);
+                }
+                catch
+                {
+                    Console.WriteLine("Que nuv, puso una letra");
+                }
+                
+
+                acum = acum + num;
+
+                prom = acum / cont;
+            
+                Console.WriteLine("ingrese otro numero o ´x´ para conocer el promedio final");
+
+            }
+
+
+        }
+
+        Console.WriteLine("el promedio de los numeros es: " + prom);
+    }
+
+
+}
+```
 # Firmas:
