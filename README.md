@@ -60,5 +60,13 @@ namespace ejercicio_1
     }
 }
 ```
+Ejercicio #7:
+```
+
+```
+Ejercicio #18:
+```
+
+```
 
 # Firmas:
