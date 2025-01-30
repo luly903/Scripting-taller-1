@@ -62,7 +62,24 @@ namespace ejercicio_1
 ```
 Ejercicio #7:
 ```
-
+namespace ejercicio_7
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            string cadena ="" ;
+            string[] array = new string[30];
+            Console.WriteLine("Escriba la cadena dejando un espacio entre cada numero:");
+            cadena=Console.ReadLine();
+            array=cadena.Split();
+            for(int i = 0; i < array.Length; i++) 
+            {
+Console.Write(array[i]+" | ");
+            }
+        }
+    }
+}
 ```
 Ejercicio #18:
 ```
