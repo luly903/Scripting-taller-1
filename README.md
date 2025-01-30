@@ -7,6 +7,7 @@ miembros del equipo:
 ## Ejercicios:
 
 Ejercicio #1:
+```
 namespace ejercicio_1
 {
     internal class Program
@@ -58,5 +59,6 @@ namespace ejercicio_1
         }
     }
 }
+```
 
 # Firmas:
