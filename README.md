@@ -218,7 +218,10 @@ public void menu()
 ```
 5:
 ```
-
+public bool EsPositivo(int num)
+{
+    return num > 0;
+}
 ```
 6:
 ```
