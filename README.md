@@ -81,6 +81,43 @@ Console.Write(array[i]+" | ");
     }
 }
 ```
+Ejercicio #15:
+```
+using System;
+using System.Linq; 
+
+namespace ejercicio_18
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Ingrese la cadena dejando un espacio entre cada letra:");
+            string cadena = Console.ReadLine();
+
+           
+            string[] ca = cadena.Split(' ');
+            string[] cad = new string[ca.Length];
+
+            
+            for (int i = 0; i < ca.Length; i++)
+            {
+                cad[i] = ca[ca.Length - 1 - i];
+            }
+
+           
+            if (ca.SequenceEqual(cad))
+            {
+                Console.WriteLine("Esta cadena es palíndroma.");
+            }
+            else
+            {
+                Console.WriteLine("Esta cadena no es palíndroma.");
+            }
+        }
+    }
+}
+```
 Ejercicio #18:
 ```
 using System;
