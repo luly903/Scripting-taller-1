@@ -220,7 +220,7 @@ class Program
 # Firmas:
 1:
 ```
-public void MostarNumeros(int[] num){
+public static void MostarNumeros(int[] num){
 
  foreach (int i in num)
     {
@@ -231,7 +231,7 @@ public void MostarNumeros(int[] num){
 ```
 Invocación: 
 ```
-
+MostarNumeros(num);
 ```
 2: 
 ```
