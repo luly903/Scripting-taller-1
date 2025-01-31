@@ -275,7 +275,7 @@ public bool EsPositivo(int num)
 ```
 6:
 ```
-static string SaludarPersona(string nombre)
+public string SaludarPersona(string nombre)
 {
     return "¡Hola, " + nombre + "!";
 }
@@ -323,7 +323,7 @@ MostrarNumeros(numeros);
 ```
 10:
 ```
-static int ContarCaracteres(string cadena)
+public int ContarCaracteres(string cadena)
 {
     return cadena.Length;
 }
@@ -357,7 +357,7 @@ Console.WriteLine(EsPalindromo("oso") ? "Es palíndromo" : "No es palíndromo");
 ```
 13:
 ```
-static int EncontrarMayor(int[] numeros)
+public int EncontrarMayor(int[] numeros)
 {
     return numeros.Max();
 }
@@ -391,7 +391,7 @@ Console.WriteLine(string.Join(", ", NumerosPares(10)));
 ```
 16:
 ```
-static string ObtenerFechaHora()
+public string ObtenerFechaHora()
 {
     return DateTime.Now.ToString();
 }
@@ -403,33 +403,46 @@ onsole.WriteLine("Fecha y hora: " + ObtenerFechaHora());
 ```
 17:
 ```
-
+static string InvertirCadena(string texto)
+{
+    return new string(texto.Reverse().ToArray());
+}
 ```
 Invocación:
 ```
-Console.WriteLine(EsPalindromo("oso") ? "Es palíndromo" : "No es palíndromo");
+Console.WriteLine("Invertida: " + InvertirCadena("programación"));
 ```
 18:
 ```
-
+public int SumarArray(int[] numeros)
+{
+    return numeros.Sum();
+}
 ```
 Invocación:
 ```
-Console.WriteLine(EsPalindromo("oso") ? "Es palíndromo" : "No es palíndromo");
+int[] valores = { 4, 7, 1, 9 };
+Console.WriteLine("Suma total: " + SumarArray(valores));
 ```
 19:
 ```
-
+public void UnirNombres(string[] nombres)
+{
+    Console.WriteLine("Nombres: " + string.Join(" | ", nombres));
+}
 ```
 Invocación:
 ```
-Console.WriteLine(EsPalindromo("oso") ? "Es palíndromo" : "No es palíndromo");
+UnirNombres(new string[] { "Ana", "Carlos", "Elena" });
 ```
 20:
 ```
-
+static void FormatearNumeros(int[] numeros, string separador)
+{
+    Console.WriteLine("Lista formateada: " + string.Join(separador, numeros));
+}
 ```
 Invocación:
 ```
-Console.WriteLine(EsPalindromo("oso") ? "Es palíndromo" : "No es palíndromo");
+FormatearNumeros(new int[] { 1, 2, 3, 4, 5 }, " - ");
 ```
