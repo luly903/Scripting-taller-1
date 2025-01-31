@@ -188,6 +188,7 @@ class Program
                 }
                 catch
                 {
+                    cont--;
                     Console.WriteLine("invalido: escribiste una letra o palabra que no fuera ´x´, por favor ingresa un numer o la letra ´x´ ");
                 }
                 
