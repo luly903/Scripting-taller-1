@@ -105,10 +105,7 @@ namespace ejercicio_18
             {
                 Console.WriteLine("Esta cadena es palíndroma.");
             }
-            else
-            {
-                Console.WriteLine("Esta cadena no es palíndroma.");
-            }
+
         }
     }
 }
