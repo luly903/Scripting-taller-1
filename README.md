@@ -159,7 +159,7 @@ class Program
                 }
                 catch
                 {
-                    Console.WriteLine("Que nuv, puso una letra");
+                    Console.WriteLine("invalido: escribiste una letra o palabra que no fuera ´x´, por favor ingresa un numer o la letra ´x´ ");
                 }
                 
 
