@@ -1,7 +1,7 @@
 
 ## Ejercicios:
 
-Ejercicio #1:
+Ejercicio #1: Recorra una matriz nxm y reemplace los valores negativos por un número positivo. 
 ```
 namespace ejercicio_1
 {
@@ -55,7 +55,7 @@ namespace ejercicio_1
     }
 }
 ```
-Ejercicio #7:
+Ejercicio #7: Lea una cadena de números enteros positivos y luego cree un array con los números de la cadena, se debe validar que la cadena contenga números.
 ```
 namespace ejercicio_7
 {
@@ -76,7 +76,7 @@ Console.Write(array[i]+" | ");
     }
 }
 ```
-Ejercicio #15:
+Ejercicio #15: Realizar una función que calcule si una cadena es palindroma. 
 ```
 using System;
 using System.Linq; 
@@ -113,7 +113,7 @@ namespace ejercicio_18
     }
 }
 ```
-Ejercicio #18:
+Ejercicio #18: Realice una función, que lea un número de máximo 8 cifras y luego sume cada dígito hasta obtener un valor de un solo dígito.
 ```
 using System;
 class Program
@@ -160,7 +160,7 @@ class Program
         return numero;
     }
 ```
-Ejercicio #26:
+Ejercicio #26: Usando un ciclo while, ingrese n valores flotantes, cada que ingrese un número acumulelo en una variable, al final calcule el promedio de los números ingresados.
 ```
 using System;
 using System.Transactions;
