@@ -220,7 +220,7 @@ class Program
 # Firmas:
 1:
 ```
-public bool EsNegativo(int num)
+public static bool EsNegativo(int num)
 {
     return num < 0;
 }
@@ -231,7 +231,7 @@ bool respuesta = EsNegativo(9);
 ```
 2: 
 ```
-public void Saludo()
+public static void Saludo()
 {
     Console.WriteLine("¡hello world!");
 }
@@ -242,7 +242,7 @@ saludo();
 ```
 3:
 ```
-public int Suma(int a, int b)
+public static int Suma(int a, int b)
 {
  return a + b;
 }
@@ -253,7 +253,7 @@ Sumar(5, 7);
 ```
 4:
 ```
-public void menu()
+public static void menu()
 {
 
     Console.Writeline("-------------------MENU-------------------");
@@ -268,7 +268,7 @@ menu();
 ```
 5:
 ```
-public bool EsPositivo(int num)
+public static bool EsPositivo(int num)
 {
     return num > 0;
 }
