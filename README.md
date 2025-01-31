@@ -183,23 +183,38 @@ class Program
 # Firmas:
 1:
 ```
-public static int contador(int num){
+public void MostarNumeros(int[] num){
 
-int total= 0;
+ foreach (int i in num)
+    {
+        Console.WriteLine(i);
+    }
 
-return total}
+}
 ```
 2: 
 ```
-
+public void Saludo()
+{
+    Console.WriteLine("¡hello world!");
+}
 ```
 3:
 ```
-
+public int Suma(int a, int b)
+{
+    return a + b; }
 ```
 4:
 ```
+public void menu()
+{
 
+    Console.Writeline("-------------------MENU-------------------");
+    Console.Writeline("1. pollo asado      2. carne a la parrilla");
+    Console.Writeline("3. ensalada cesar   4. menu infantil ");
+
+}
 ```
 5:
 ```
