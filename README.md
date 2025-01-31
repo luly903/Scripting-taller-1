@@ -220,18 +220,14 @@ class Program
 # Firmas:
 1:
 ```
-public static void MostarNumeros(int[] num){
-
- foreach (int i in num)
-    {
-        Console.WriteLine(i);
-    }
-
+public bool EsNegativo(int num)
+{
+    return num < 0;
 }
 ```
 Invocación: 
 ```
-MostarNumeros(num);
+bool respuesta = EsNegativo(9);
 ```
 2: 
 ```
@@ -266,12 +262,20 @@ public void menu()
 
 }
 ```
+Invocación: 
+```
+menu();
+```
 5:
 ```
 public bool EsPositivo(int num)
 {
     return num > 0;
 }
+```
+Invocación: 
+```
+bool respuesta = EsPositivo(5);
 ```
 6:
 ```
